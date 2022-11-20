@@ -16,6 +16,6 @@
 
 @layer components {
   div.total-cases {
-    background: linear-gradient(270deg,#243b55,#141e30);
+    background: linear-gradient(270deg, #243b55, #141e30);
   }
 }
