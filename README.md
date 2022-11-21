@@ -27,6 +27,7 @@
 ### 📷 [Screenshots]
 
 <div>
+  <img src="./screenshots/image2.PNG" />
   <img src="./screenshots/image1.PNG" />
 </div>
 
