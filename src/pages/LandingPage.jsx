@@ -1,5 +1,5 @@
 import React from 'react';
-import fetchWorldData from '../redux/api/world-data';
+import { fetchWorldData } from '../redux/api/world-data';
 
 const LandingPage = () => {
   const func = async () => {

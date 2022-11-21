@@ -15,7 +15,22 @@
 }
 
 @layer components {
-  div.total-cases {
+  .total-cases {
     background: linear-gradient(270deg, #243b55, #141e30);
+  }
+
+  /* Categories */
+  li.list-items {
+    @apply h-[12rem];
+
+    background: linear-gradient(270deg, #141e30, #243b55);
+  }
+
+  div.actions {
+    @apply mt-5;
+  }
+
+  div.actions a {
+    @apply bg-[#141e30] px-4 py-2 rounded-md hover:bg-transparent hover:border;
   }
 }

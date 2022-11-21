@@ -1,6 +1,6 @@
 /* eslint-disable no-param-reassign */
 import { createAction, createAsyncThunk, createSlice } from '@reduxjs/toolkit';
-import fetchWorldData from '../api/world-data';
+import { fetchWorldData } from '../api/world-data';
 
 const FETCH_WORLD_DATA = createAction('world-data/FETCH_WORLD_DATA');
 
