@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
+import { IoArrowBackOutline } from 'react-icons/io5';
 import { getContinentData } from '../../redux/world-data/continentSlice';
 import africa from '../../assets/africa.png';
 import asia from '../../assets/asia.png';
@@ -104,7 +105,12 @@ const Details = () => {
 
   return (
     <>
-      <header className="flex justify-evenly items-center h-[12rem]">
+      <header className="flex relative justify-evenly items-center h-[12rem]">
+        <Link to="/dashboard" className="back-btn border z-50 p-1 rounded-full absolute top-5 right-5">
+          <span>
+            <IoArrowBackOutline />
+          </span>
+        </Link>
         {continent === 'australia' ? (
           <h3 className="w-[50%] text-center text-xl font-bold">
             {changeName()}
@@ -118,7 +124,7 @@ const Details = () => {
           <img src={changeImg()} alt="" className="opacity-25" />
         </div>
       </header>
-      <section className="flex flex-wrap justify-center gap-4 p-2">
+      <section className="mt-3 flex flex-wrap justify-center gap-4 p-2">
         <div className="total-cases flex flex-col justify-center h-[6rem] text-center rounded p-5 w-[10rem]">
           <span className="font-bold text-xl text-green-300">
             {TotalCases()}
@@ -138,9 +144,7 @@ const Details = () => {
           <span>Total Deaths</span>
         </div>
         <div className="total-cases flex flex-col justify-center h-[6rem] rounded p-5 text-center w-[10rem]">
-          <span className="font-bold text-xl text-green-300">
-            {NewCases()}
-          </span>
+          <span className="font-bold text-xl text-green-300">{NewCases()}</span>
           <span>New Cases</span>
         </div>
         <div className="total-cases flex flex-col justify-center h-[6rem] rounded p-5 text-center w-[10rem]">
@@ -150,9 +154,7 @@ const Details = () => {
           <span>Critical</span>
         </div>
         <div className="total-cases flex flex-col justify-center h-[6rem] rounded p-5 text-center w-[10rem]">
-          <span className="font-bold text-xl text-red-800">
-            {NewDeaths()}
-          </span>
+          <span className="font-bold text-xl text-red-800">{NewDeaths()}</span>
           <span>New Deaths</span>
         </div>
       </section>
