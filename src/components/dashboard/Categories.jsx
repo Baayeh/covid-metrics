@@ -81,7 +81,7 @@ const Categories = ({ continentData }) => {
                 {getAfricaTotalCases()}
               </p>
               <div className="actions">
-                <Link to="/">View More</Link>
+                <Link to="/category/africa">View More</Link>
               </div>
             </div>
             <div className="card-img w-[40%]">
@@ -100,7 +100,7 @@ const Categories = ({ continentData }) => {
                 {getAsiaTotalCases()}
               </p>
               <div className="actions">
-                <Link to="/">View More</Link>
+                <Link to="/category/asia">View More</Link>
               </div>
             </div>
             <div className="card-img w-[40%]">
@@ -119,7 +119,7 @@ const Categories = ({ continentData }) => {
                 {getAustraliaTotalCases()}
               </p>
               <div className="actions">
-                <Link to="/">View More</Link>
+                <Link to="/category/australia">View More</Link>
               </div>
             </div>
             <div className="card-img w-[40%]">
@@ -142,7 +142,7 @@ const Categories = ({ continentData }) => {
                 {getEuropeTotalCases()}
               </p>
               <div className="actions">
-                <Link to="/">View More</Link>
+                <Link to="/category/europe">View More</Link>
               </div>
             </div>
             <div className="card-img w-[40%]">
@@ -165,7 +165,7 @@ const Categories = ({ continentData }) => {
                 {getNorthTotalCases()}
               </p>
               <div className="actions">
-                <Link to="/">View More</Link>
+                <Link to="/category/northamerica">View More</Link>
               </div>
             </div>
             <div className="card-img w-[40%]">
@@ -188,7 +188,7 @@ const Categories = ({ continentData }) => {
                 {getSouthTotalCases()}
               </p>
               <div className="actions">
-                <Link to="/">View More</Link>
+                <Link to="/category/southamerica">View More</Link>
               </div>
             </div>
             <div className="card-img w-[40%]">
