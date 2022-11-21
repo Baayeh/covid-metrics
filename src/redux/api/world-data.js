@@ -9,17 +9,12 @@ const headers = {
 };
 
 const fetchWorldData = async () => {
-  const response = await axios.get(`${URL}/world`, {
+  const response = await axios.get(`${URL}`, {
     headers,
   });
   return response.data;
 };
 
-const fetchContinentData = async () => {
-  const res = await axios.get(URL, { headers });
-  return res.data;
-};
-
 export {
-  fetchWorldData, fetchContinentData, URL, headers,
+  fetchWorldData, URL, headers,
 };

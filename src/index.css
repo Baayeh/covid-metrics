@@ -22,6 +22,7 @@
   /* Categories */
   li.list-items {
     @apply h-[12rem];
+
     background: linear-gradient(270deg, #141e30, #243b55);
   }
 
