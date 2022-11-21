@@ -1,3 +1,4 @@
+/* eslint-disable no-param-reassign */
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Link, useParams } from 'react-router-dom';
@@ -51,53 +52,35 @@ const Details = () => {
     return img;
   };
 
-  const TotalCases = () => {
-    let total = 0;
-    contData?.forEach((country) => {
-      total += country.TotalCases;
-    });
-    return total;
-  };
+  const TotalCases = () => contData.reduce((acc, curr) => {
+    acc += curr.TotalCases;
+    return acc;
+  }, 0);
 
-  const ActiveCases = () => {
-    let total = 0;
-    contData?.forEach((country) => {
-      total += country.ActiveCases;
-    });
-    return total;
-  };
+  const ActiveCases = () => contData.reduce((acc, curr) => {
+    acc += curr.ActiveCases;
+    return acc;
+  }, 0);
 
-  const TotalDeaths = () => {
-    let total = 0;
-    contData?.forEach((country) => {
-      total += country.TotalDeaths;
-    });
-    return total;
-  };
+  const TotalDeaths = () => contData.reduce((acc, curr) => {
+    acc += curr.TotalDeaths;
+    return acc;
+  }, 0);
 
-  const NewCases = () => {
-    let total = 0;
-    contData?.forEach((country) => {
-      total += country.NewCases;
-    });
-    return total;
-  };
+  const NewCases = () => contData.reduce((acc, curr) => {
+    acc += curr.NewCases;
+    return acc;
+  }, 0);
 
-  const Critical = () => {
-    let total = 0;
-    contData?.forEach((country) => {
-      total += country.Serious_Critical;
-    });
-    return total;
-  };
+  const Critical = () => contData.reduce((acc, curr) => {
+    acc += curr.Serious_Critical;
+    return acc;
+  }, 0);
 
-  const NewDeaths = () => {
-    let total = 0;
-    contData?.forEach((country) => {
-      total += country.NewDeaths;
-    });
-    return total;
-  };
+  const NewDeaths = () => contData.reduce((acc, curr) => {
+    acc += curr.NewDeaths;
+    return acc;
+  }, 0);
 
   useEffect(() => {
     dispatch(getContinentData(continent));
@@ -106,7 +89,10 @@ const Details = () => {
   return (
     <>
       <header className="flex relative justify-evenly items-center h-[12rem]">
-        <Link to="/dashboard" className="back-btn border z-50 p-1 rounded-full absolute top-5 right-5">
+        <Link
+          to="/dashboard"
+          className="back-btn border z-50 p-1 rounded-full absolute top-5 right-5"
+        >
           <span>
             <IoArrowBackOutline />
           </span>

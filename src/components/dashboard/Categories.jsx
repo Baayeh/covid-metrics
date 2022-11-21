@@ -1,3 +1,4 @@
+/* eslint-disable no-param-reassign */
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
@@ -19,57 +20,39 @@ const Categories = ({ continentData }) => {
   const northamerica = alldata.filter((data) => data.Continent === 'North America');
   const southamerica = alldata.filter((data) => data.Continent === 'South America');
 
-  const getAfricaTotalCases = () => {
-    let total = 0;
-    african.forEach((country) => {
-      total += country.TotalCases;
-    });
-    return total;
-  };
+  const getAfricaTotalCases = () => african.reduce((acc, curr) => {
+    acc += curr.TotalCases;
+    return acc;
+  }, 0);
 
-  const getAsiaTotalCases = () => {
-    let total = 0;
-    asian.forEach((country) => {
-      total += country.TotalCases;
-    });
-    return total;
-  };
+  const getAsiaTotalCases = () => asian.reduce((acc, curr) => {
+    acc += curr.TotalCases;
+    return acc;
+  }, 0);
 
-  const getAustraliaTotalCases = () => {
-    let total = 0;
-    australian.forEach((country) => {
-      total += country.TotalCases;
-    });
-    return total;
-  };
+  const getAustraliaTotalCases = () => australian.reduce((acc, curr) => {
+    acc += curr.TotalCases;
+    return acc;
+  }, 0);
 
-  const getEuropeTotalCases = () => {
-    let total = 0;
-    european.forEach((country) => {
-      total += country.TotalCases;
-    });
-    return total;
-  };
+  const getEuropeTotalCases = () => european.reduce((acc, curr) => {
+    acc += curr.TotalCases;
+    return acc;
+  }, 0);
 
-  const getNorthTotalCases = () => {
-    let total = 0;
-    northamerica.forEach((country) => {
-      total += country.TotalCases;
-    });
-    return total;
-  };
+  const getNorthTotalCases = () => northamerica.reduce((acc, curr) => {
+    acc += curr.TotalCases;
+    return acc;
+  }, 0);
 
-  const getSouthTotalCases = () => {
-    let total = 0;
-    southamerica.forEach((country) => {
-      total += country.TotalCases;
-    });
-    return total;
-  };
+  const getSouthTotalCases = () => southamerica.reduce((acc, curr) => {
+    acc += curr.TotalCases;
+    return acc;
+  }, 0);
 
   return (
     <section className="categories py-5">
-      <h3 className="uppercase mb-2 text-cente">Stats by Continent</h3>
+      <h3 className="uppercase mb-2 pl-3 text-cente">Stats by Continent</h3>
       <ul className="category-list flex flex-col gap-3">
         <li className="list-items pl-3 flex">
           <div className="card flex justify-evenly items-center">
