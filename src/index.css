@@ -15,6 +15,15 @@
 }
 
 @layer components {
+  /* NavBar */
+  ul.menu-list {
+    @apply bg-primary h-screen flex flex-col pt-16 absolute z-10 overflow-hidden transition-all ease-out duration-500 items-center;
+  }
+
+  a.nav-link {
+    @apply block p-5;
+  }
+
   .total-cases {
     background: linear-gradient(270deg, #243b55, #141e30);
   }
@@ -35,7 +44,7 @@
   }
 
   /* Details */
-  header {
+  header.details-header {
     background: linear-gradient(270deg, #141e30, #243b55);
   }
 }
