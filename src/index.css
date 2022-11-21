@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import "primereact/resources/themes/lara-light-indigo/theme.css";
+@import "primereact/resources/primereact.min.css";
+@import "primeicons/primeicons.css";
 
 @tailwind base;
 @tailwind components;
@@ -24,8 +27,19 @@
     @apply block p-5;
   }
 
-  .total-cases {
+  .total-cases,
+  section.landing {
     background: linear-gradient(270deg, #243b55, #141e30);
+  }
+
+  button.landing-btn {
+    @apply transition-all ease-out duration-300;
+
+    background: transparent;
+  }
+
+  button.landing-btn:hover {
+    background: linear-gradient(270deg, #141e30, #243b55);
   }
 
   /* Categories */

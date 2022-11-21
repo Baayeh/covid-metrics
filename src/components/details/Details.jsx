@@ -85,7 +85,7 @@ const Details = () => {
 
   useEffect(() => {
     dispatch(getContinentData(continent));
-  }, []);
+  }, [contData]);
 
   return (
     <>
