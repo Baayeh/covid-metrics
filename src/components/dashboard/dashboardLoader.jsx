@@ -1,4 +1,5 @@
-import { BigBoxLoader, MiniBoxLoader } from '..';
+import MiniBoxLoader from '../loader/miniBoxLoader';
+import BigBoxLoader from '../loader/bigBoxLoader';
 
 const DashboardLoader = () => (
   <section>

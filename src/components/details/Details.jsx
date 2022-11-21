@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { Link, useParams } from 'react-router-dom';
 import { IoArrowBackOutline } from 'react-icons/io5';
 import { getContinentData } from '../../redux/world-data/continentSlice';
-import { MiniBoxLoader } from '..';
+import MiniBoxLoader from '../loader/miniBoxLoader';
 import africa from '../../assets/africa.png';
 import asia from '../../assets/asia.png';
 import australia from '../../assets/australia.png';
