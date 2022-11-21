@@ -8,7 +8,7 @@ import store from './redux/store';
 import reportWebVitals from './reportWebVitals';
 import Home from './pages/Home';
 import LandingPage from './pages/LandingPage';
-import Details from './pages/Details';
+import { Details } from './components';
 
 const router = createBrowserRouter([
   {
@@ -24,7 +24,7 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: 'details',
+        path: 'category/:continent',
         element: <Details />,
       },
     ],
