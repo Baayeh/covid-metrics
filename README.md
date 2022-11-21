@@ -24,7 +24,7 @@
 
 **COVID-19_Tracker** is a web app that tracks COVID-19 cases worldwide. It uses the VACCOVID API from RapidAPI
 
-### 📷 [Screenshots]
+## 📷 [Screenshots]
 
 <div>
   <img src="./screenshots/image1.PNG" />
