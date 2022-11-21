@@ -88,7 +88,7 @@ const Details = () => {
 
   return (
     <>
-      <header className="flex relative justify-evenly items-center h-[12rem]">
+      <header className="details-header flex relative justify-evenly items-center h-[12rem]">
         <Link
           to="/dashboard"
           className="back-btn border z-50 p-1 rounded-full absolute top-5 right-5"
