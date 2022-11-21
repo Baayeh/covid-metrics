@@ -20,11 +20,15 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-
 # 📖 [COVID-19_Tracker] <a name="about-project"></a>
 
-**[COVID-19_Tracker]** is a web app that tracks COVID-19 cases worldwide. It uses the VACCOVID API from RapidAPI
+**COVID-19_Tracker** is a web app that tracks COVID-19 cases worldwide. It uses the VACCOVID API from RapidAPI
 
+### 📷 [Screenshots]
+
+<div>
+  <img src="./screenshots/image1.PNG" />
+</div>
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -48,13 +52,11 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - [Live Demo Link](https://yourdeployedapplicationlink.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -63,13 +65,14 @@ To get a local copy up and running, follow these steps.
 ### Prerequisites
 
 In order to run this project you need:
+
 - Latest version of [Node](https://nodejs.org/en/) installed on the computer.
 - [Git](https://git-scm.com/downloads) installed on the computer.
-
 
 ### Setup
 
 Clone this repository to your desired folder:
+
 ```sh
   cd my-folder
   git clone git@github.com:myaccount/my-project.git
@@ -78,6 +81,7 @@ Clone this repository to your desired folder:
 ### Install
 
 Install this project with:
+
 ```sh
   cd my-project
   npm install
@@ -86,6 +90,7 @@ Install this project with:
 ### Usage
 
 To run the project, execute the following command:
+
 ```sh
   npm start
 ```
@@ -93,6 +98,7 @@ To run the project, execute the following command:
 ### Run tests
 
 To run tests, run the following command:
+
 ```sh
   npm test
 ```
@@ -100,10 +106,10 @@ To run tests, run the following command:
 ### Deployment
 
 You can deploy this project using:
- - [Vercel](https://vercel.com/docs)
+
+- [Vercel](https://vercel.com/docs)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## 👥 Authors <a name="authors"></a>
 
@@ -113,9 +119,7 @@ You can deploy this project using:
 - Twitter: [@twitterhandle](https://twitter.com/Cest_Baayeh)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/kabaayeh)
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## 🔭 Future Features <a name="future-features"></a>
 
@@ -123,7 +127,6 @@ You can deploy this project using:
 - [ ] **[Display data for every country in a specific continent]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## 🤝 Contributing <a name="contributing"></a>
 
@@ -133,22 +136,20 @@ Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 ## ⭐️ Show your support <a name="support"></a>
 
 If you like this project, give it a ⭐
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank
+
 - [Microverse](https://www.microverse.org/)
 - [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## 📝 License <a name="license"></a>
 
