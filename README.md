@@ -65,6 +65,8 @@
 ## 🎥 Video Presentation
 - [Video](https://drive.google.com/file/d/1c2tmo8iJIYE5kaROysykzljxozrurlC7/view?usp=sharing)
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
