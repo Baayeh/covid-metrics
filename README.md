@@ -149,6 +149,7 @@ I would like to thank
 
 - [Microverse](https://www.microverse.org/)
 - [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio)
+- [VACCOVID API](https://rapidapi.com/vaccovidlive-vaccovidlive-default/api/vaccovid-coronavirus-vaccine-and-treatment-tracker)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
