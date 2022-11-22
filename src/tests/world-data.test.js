@@ -1,5 +1,5 @@
 import axios from 'axios';
-import fetchWorldData, { URL, headers } from '../redux/api/world-data';
+import { fetchWorldData, URL, headers } from '../redux/api/world-data';
 
 jest.mock('axios');
 
