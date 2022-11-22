@@ -1,0 +1,1275 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UI Tests should render Categories UI 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <section
+        class="categories py-5"
+      >
+        <h3
+          class="uppercase mb-2 pl-3 text-cente"
+        >
+          Stats by Continent
+        </h3>
+        <ul
+          class="category-list flex flex-col gap-3"
+        >
+          <li
+            class="list-items pl-3 flex"
+          >
+            <div
+              class="card flex justify-evenly items-center"
+            >
+              <div
+                class="card-body w-[60%]"
+              >
+                <h4
+                  class="font-bold text-4xl"
+                >
+                  Africa
+                </h4>
+                <p>
+                  Total Cases:
+                   
+                  0
+                </p>
+                <div
+                  class="actions"
+                >
+                  <a
+                    href="/category/africa"
+                  >
+                    View More
+                  </a>
+                </div>
+              </div>
+              <div
+                class="card-img w-[40%]"
+              >
+                <img
+                  alt="Africa map"
+                  class="w-44 opacity-40"
+                  src="africa.png"
+                />
+              </div>
+            </div>
+          </li>
+          <li
+            class="list-items pl-3 flex items-center"
+          >
+            <div
+              class="card flex justify-evenly items-center"
+            >
+              <div
+                class="card-body w-[60%]"
+              >
+                <h4
+                  class="font-bold text-4xl"
+                >
+                  Asia
+                </h4>
+                <p>
+                  Total Cases:
+                   
+                  0
+                </p>
+                <div
+                  class="actions"
+                >
+                  <a
+                    href="/category/asia"
+                  >
+                    View More
+                  </a>
+                </div>
+              </div>
+              <div
+                class="card-img w-[40%]"
+              >
+                <img
+                  alt="Africa map"
+                  class="w-44 opacity-40"
+                  src="asia.png"
+                />
+              </div>
+            </div>
+          </li>
+          <li
+            class="list-items pl-3 flex items-center"
+          >
+            <div
+              class="card flex justify-evenly items-center"
+            >
+              <div
+                class="card-body w-[60%]"
+              >
+                <h4
+                  class="font-bold text-2xl"
+                >
+                  Australia & Oceania
+                </h4>
+                <p>
+                  Total Cases:
+                   
+                  0
+                </p>
+                <div
+                  class="actions"
+                >
+                  <a
+                    href="/category/australia"
+                  >
+                    View More
+                  </a>
+                </div>
+              </div>
+              <div
+                class="card-img w-[40%]"
+              >
+                <img
+                  alt="Africa map"
+                  class="w-36 opacity-40"
+                  src="australia.png"
+                />
+              </div>
+            </div>
+          </li>
+          <li
+            class="list-items pl-3 flex items-center"
+          >
+            <div
+              class="card flex justify-evenly items-center"
+            >
+              <div
+                class="card-body w-[60%]"
+              >
+                <h4
+                  class="font-bold text-2xl"
+                >
+                  Europe
+                </h4>
+                <p>
+                  Total Cases:
+                   
+                  0
+                </p>
+                <div
+                  class="actions"
+                >
+                  <a
+                    href="/category/europe"
+                  >
+                    View More
+                  </a>
+                </div>
+              </div>
+              <div
+                class="card-img w-[40%]"
+              >
+                <img
+                  alt="Africa map"
+                  class="w-36 opacity-40"
+                  src="europe.png"
+                />
+              </div>
+            </div>
+          </li>
+          <li
+            class="list-items pl-3 flex items-center"
+          >
+            <div
+              class="card flex justify-evenly items-center"
+            >
+              <div
+                class="card-body w-[60%]"
+              >
+                <h4
+                  class="font-bold text-2xl"
+                >
+                  North America
+                </h4>
+                <p>
+                  Total Cases:
+                   
+                  0
+                </p>
+                <div
+                  class="actions"
+                >
+                  <a
+                    href="/category/northamerica"
+                  >
+                    View More
+                  </a>
+                </div>
+              </div>
+              <div
+                class="card-img w-[40%]"
+              >
+                <img
+                  alt="Africa map"
+                  class="w-36 opacity-40"
+                  src="north-america.png"
+                />
+              </div>
+            </div>
+          </li>
+          <li
+            class="list-items pl-3 flex items-center"
+          >
+            <div
+              class="card flex justify-evenly items-center"
+            >
+              <div
+                class="card-body w-[60%]"
+              >
+                <h4
+                  class="font-bold text-2xl"
+                >
+                  South America
+                </h4>
+                <p>
+                  Total Cases:
+                   
+                  0
+                </p>
+                <div
+                  class="actions"
+                >
+                  <a
+                    href="/category/southamerica"
+                  >
+                    View More
+                  </a>
+                </div>
+              </div>
+              <div
+                class="card-img w-[40%]"
+              >
+                <img
+                  alt="Africa map"
+                  class="w-36 opacity-40"
+                  src="south-america.png"
+                />
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </div>
+  </body>,
+  "container": <div>
+    <section
+      class="categories py-5"
+    >
+      <h3
+        class="uppercase mb-2 pl-3 text-cente"
+      >
+        Stats by Continent
+      </h3>
+      <ul
+        class="category-list flex flex-col gap-3"
+      >
+        <li
+          class="list-items pl-3 flex"
+        >
+          <div
+            class="card flex justify-evenly items-center"
+          >
+            <div
+              class="card-body w-[60%]"
+            >
+              <h4
+                class="font-bold text-4xl"
+              >
+                Africa
+              </h4>
+              <p>
+                Total Cases:
+                 
+                0
+              </p>
+              <div
+                class="actions"
+              >
+                <a
+                  href="/category/africa"
+                >
+                  View More
+                </a>
+              </div>
+            </div>
+            <div
+              class="card-img w-[40%]"
+            >
+              <img
+                alt="Africa map"
+                class="w-44 opacity-40"
+                src="africa.png"
+              />
+            </div>
+          </div>
+        </li>
+        <li
+          class="list-items pl-3 flex items-center"
+        >
+          <div
+            class="card flex justify-evenly items-center"
+          >
+            <div
+              class="card-body w-[60%]"
+            >
+              <h4
+                class="font-bold text-4xl"
+              >
+                Asia
+              </h4>
+              <p>
+                Total Cases:
+                 
+                0
+              </p>
+              <div
+                class="actions"
+              >
+                <a
+                  href="/category/asia"
+                >
+                  View More
+                </a>
+              </div>
+            </div>
+            <div
+              class="card-img w-[40%]"
+            >
+              <img
+                alt="Africa map"
+                class="w-44 opacity-40"
+                src="asia.png"
+              />
+            </div>
+          </div>
+        </li>
+        <li
+          class="list-items pl-3 flex items-center"
+        >
+          <div
+            class="card flex justify-evenly items-center"
+          >
+            <div
+              class="card-body w-[60%]"
+            >
+              <h4
+                class="font-bold text-2xl"
+              >
+                Australia & Oceania
+              </h4>
+              <p>
+                Total Cases:
+                 
+                0
+              </p>
+              <div
+                class="actions"
+              >
+                <a
+                  href="/category/australia"
+                >
+                  View More
+                </a>
+              </div>
+            </div>
+            <div
+              class="card-img w-[40%]"
+            >
+              <img
+                alt="Africa map"
+                class="w-36 opacity-40"
+                src="australia.png"
+              />
+            </div>
+          </div>
+        </li>
+        <li
+          class="list-items pl-3 flex items-center"
+        >
+          <div
+            class="card flex justify-evenly items-center"
+          >
+            <div
+              class="card-body w-[60%]"
+            >
+              <h4
+                class="font-bold text-2xl"
+              >
+                Europe
+              </h4>
+              <p>
+                Total Cases:
+                 
+                0
+              </p>
+              <div
+                class="actions"
+              >
+                <a
+                  href="/category/europe"
+                >
+                  View More
+                </a>
+              </div>
+            </div>
+            <div
+              class="card-img w-[40%]"
+            >
+              <img
+                alt="Africa map"
+                class="w-36 opacity-40"
+                src="europe.png"
+              />
+            </div>
+          </div>
+        </li>
+        <li
+          class="list-items pl-3 flex items-center"
+        >
+          <div
+            class="card flex justify-evenly items-center"
+          >
+            <div
+              class="card-body w-[60%]"
+            >
+              <h4
+                class="font-bold text-2xl"
+              >
+                North America
+              </h4>
+              <p>
+                Total Cases:
+                 
+                0
+              </p>
+              <div
+                class="actions"
+              >
+                <a
+                  href="/category/northamerica"
+                >
+                  View More
+                </a>
+              </div>
+            </div>
+            <div
+              class="card-img w-[40%]"
+            >
+              <img
+                alt="Africa map"
+                class="w-36 opacity-40"
+                src="north-america.png"
+              />
+            </div>
+          </div>
+        </li>
+        <li
+          class="list-items pl-3 flex items-center"
+        >
+          <div
+            class="card flex justify-evenly items-center"
+          >
+            <div
+              class="card-body w-[60%]"
+            >
+              <h4
+                class="font-bold text-2xl"
+              >
+                South America
+              </h4>
+              <p>
+                Total Cases:
+                 
+                0
+              </p>
+              <div
+                class="actions"
+              >
+                <a
+                  href="/category/southamerica"
+                >
+                  View More
+                </a>
+              </div>
+            </div>
+            <div
+              class="card-img w-[40%]"
+            >
+              <img
+                alt="Africa map"
+                class="w-36 opacity-40"
+                src="south-america.png"
+              />
+            </div>
+          </div>
+        </li>
+      </ul>
+    </section>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`UI Tests should render Homepage 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <section
+        class="total-stats bg-secondary p-1"
+      >
+        <h2
+          class="uppercase tracking-[0.1rem] text-center"
+        >
+          World Data
+        </h2>
+        <section>
+          <section
+            class="flex flex-wrap justify-center gap-4 p-2"
+          >
+            <div
+              class="total-cases flex flex-col justify-center h-[6rem] text-center rounded p-5 w-[10rem] animate-pulse"
+            >
+              <div
+                class="h-3 bg-slate-700 rounded-md"
+              />
+              <div
+                class="h-3 w-[70%] mx-auto bg-slate-700 mt-3 rounded-md"
+              />
+            </div>
+            <div
+              class="total-cases flex flex-col justify-center h-[6rem] text-center rounded p-5 w-[10rem] animate-pulse"
+            >
+              <div
+                class="h-3 bg-slate-700 rounded-md"
+              />
+              <div
+                class="h-3 w-[70%] mx-auto bg-slate-700 mt-3 rounded-md"
+              />
+            </div>
+            <div
+              class="total-cases flex flex-col justify-center h-[6rem] text-center rounded p-5 w-[10rem] animate-pulse"
+            >
+              <div
+                class="h-3 bg-slate-700 rounded-md"
+              />
+              <div
+                class="h-3 w-[70%] mx-auto bg-slate-700 mt-3 rounded-md"
+              />
+            </div>
+            <div
+              class="total-cases flex flex-col justify-center h-[6rem] text-center rounded p-5 w-[10rem] animate-pulse"
+            >
+              <div
+                class="h-3 bg-slate-700 rounded-md"
+              />
+              <div
+                class="h-3 w-[70%] mx-auto bg-slate-700 mt-3 rounded-md"
+              />
+            </div>
+            <div
+              class="total-cases flex flex-col justify-center h-[6rem] text-center rounded p-5 w-[10rem] animate-pulse"
+            >
+              <div
+                class="h-3 bg-slate-700 rounded-md"
+              />
+              <div
+                class="h-3 w-[70%] mx-auto bg-slate-700 mt-3 rounded-md"
+              />
+            </div>
+            <div
+              class="total-cases flex flex-col justify-center h-[6rem] text-center rounded p-5 w-[10rem] animate-pulse"
+            >
+              <div
+                class="h-3 bg-slate-700 rounded-md"
+              />
+              <div
+                class="h-3 w-[70%] mx-auto bg-slate-700 mt-3 rounded-md"
+              />
+            </div>
+          </section>
+          <section
+            class="mt-4"
+          >
+            <div
+              class="h-6 w-[40%] ml-3 mr-auto bg-slate-700 mt-3 rounded-md"
+            />
+            <ul
+              class="category-list flex flex-col gap-3 mt-3"
+            >
+              <li
+                class="list-items pl-3 flex"
+              >
+                <div
+                  class="card flex justify-evenly items-center w-full"
+                >
+                  <div
+                    class="card-body w-[60%] animate-pulse"
+                  >
+                    <div
+                      class="h-6 w-[40%] mr-auto bg-slate-700 mt-3 rounded-md"
+                    />
+                    <div
+                      class="h-4 w-[60%] mr-auto bg-slate-700 mt-3 rounded-md"
+                    />
+                    <div
+                      class="h-6 w-[40%] mr-auto bg-slate-700 mt-5 rounded-md"
+                    />
+                  </div>
+                  <div
+                    class="card-img w-[40%]"
+                  >
+                    <div
+                      class="h-[100px] w-[80%] mx-auto bg-slate-700 rounded-md"
+                    />
+                  </div>
+                </div>
+              </li>
+              <li
+                class="list-items pl-3 flex"
+              >
+                <div
+                  class="card flex justify-evenly items-center w-full"
+                >
+                  <div
+                    class="card-body w-[60%] animate-pulse"
+                  >
+                    <div
+                      class="h-6 w-[40%] mr-auto bg-slate-700 mt-3 rounded-md"
+                    />
+                    <div
+                      class="h-4 w-[60%] mr-auto bg-slate-700 mt-3 rounded-md"
+                    />
+                    <div
+                      class="h-6 w-[40%] mr-auto bg-slate-700 mt-5 rounded-md"
+                    />
+                  </div>
+                  <div
+                    class="card-img w-[40%]"
+                  >
+                    <div
+                      class="h-[100px] w-[80%] mx-auto bg-slate-700 rounded-md"
+                    />
+                  </div>
+                </div>
+              </li>
+              <li
+                class="list-items pl-3 flex"
+              >
+                <div
+                  class="card flex justify-evenly items-center w-full"
+                >
+                  <div
+                    class="card-body w-[60%] animate-pulse"
+                  >
+                    <div
+                      class="h-6 w-[40%] mr-auto bg-slate-700 mt-3 rounded-md"
+                    />
+                    <div
+                      class="h-4 w-[60%] mr-auto bg-slate-700 mt-3 rounded-md"
+                    />
+                    <div
+                      class="h-6 w-[40%] mr-auto bg-slate-700 mt-5 rounded-md"
+                    />
+                  </div>
+                  <div
+                    class="card-img w-[40%]"
+                  >
+                    <div
+                      class="h-[100px] w-[80%] mx-auto bg-slate-700 rounded-md"
+                    />
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </section>
+      </section>
+    </div>
+  </body>,
+  "container": <div>
+    <section
+      class="total-stats bg-secondary p-1"
+    >
+      <h2
+        class="uppercase tracking-[0.1rem] text-center"
+      >
+        World Data
+      </h2>
+      <section>
+        <section
+          class="flex flex-wrap justify-center gap-4 p-2"
+        >
+          <div
+            class="total-cases flex flex-col justify-center h-[6rem] text-center rounded p-5 w-[10rem] animate-pulse"
+          >
+            <div
+              class="h-3 bg-slate-700 rounded-md"
+            />
+            <div
+              class="h-3 w-[70%] mx-auto bg-slate-700 mt-3 rounded-md"
+            />
+          </div>
+          <div
+            class="total-cases flex flex-col justify-center h-[6rem] text-center rounded p-5 w-[10rem] animate-pulse"
+          >
+            <div
+              class="h-3 bg-slate-700 rounded-md"
+            />
+            <div
+              class="h-3 w-[70%] mx-auto bg-slate-700 mt-3 rounded-md"
+            />
+          </div>
+          <div
+            class="total-cases flex flex-col justify-center h-[6rem] text-center rounded p-5 w-[10rem] animate-pulse"
+          >
+            <div
+              class="h-3 bg-slate-700 rounded-md"
+            />
+            <div
+              class="h-3 w-[70%] mx-auto bg-slate-700 mt-3 rounded-md"
+            />
+          </div>
+          <div
+            class="total-cases flex flex-col justify-center h-[6rem] text-center rounded p-5 w-[10rem] animate-pulse"
+          >
+            <div
+              class="h-3 bg-slate-700 rounded-md"
+            />
+            <div
+              class="h-3 w-[70%] mx-auto bg-slate-700 mt-3 rounded-md"
+            />
+          </div>
+          <div
+            class="total-cases flex flex-col justify-center h-[6rem] text-center rounded p-5 w-[10rem] animate-pulse"
+          >
+            <div
+              class="h-3 bg-slate-700 rounded-md"
+            />
+            <div
+              class="h-3 w-[70%] mx-auto bg-slate-700 mt-3 rounded-md"
+            />
+          </div>
+          <div
+            class="total-cases flex flex-col justify-center h-[6rem] text-center rounded p-5 w-[10rem] animate-pulse"
+          >
+            <div
+              class="h-3 bg-slate-700 rounded-md"
+            />
+            <div
+              class="h-3 w-[70%] mx-auto bg-slate-700 mt-3 rounded-md"
+            />
+          </div>
+        </section>
+        <section
+          class="mt-4"
+        >
+          <div
+            class="h-6 w-[40%] ml-3 mr-auto bg-slate-700 mt-3 rounded-md"
+          />
+          <ul
+            class="category-list flex flex-col gap-3 mt-3"
+          >
+            <li
+              class="list-items pl-3 flex"
+            >
+              <div
+                class="card flex justify-evenly items-center w-full"
+              >
+                <div
+                  class="card-body w-[60%] animate-pulse"
+                >
+                  <div
+                    class="h-6 w-[40%] mr-auto bg-slate-700 mt-3 rounded-md"
+                  />
+                  <div
+                    class="h-4 w-[60%] mr-auto bg-slate-700 mt-3 rounded-md"
+                  />
+                  <div
+                    class="h-6 w-[40%] mr-auto bg-slate-700 mt-5 rounded-md"
+                  />
+                </div>
+                <div
+                  class="card-img w-[40%]"
+                >
+                  <div
+                    class="h-[100px] w-[80%] mx-auto bg-slate-700 rounded-md"
+                  />
+                </div>
+              </div>
+            </li>
+            <li
+              class="list-items pl-3 flex"
+            >
+              <div
+                class="card flex justify-evenly items-center w-full"
+              >
+                <div
+                  class="card-body w-[60%] animate-pulse"
+                >
+                  <div
+                    class="h-6 w-[40%] mr-auto bg-slate-700 mt-3 rounded-md"
+                  />
+                  <div
+                    class="h-4 w-[60%] mr-auto bg-slate-700 mt-3 rounded-md"
+                  />
+                  <div
+                    class="h-6 w-[40%] mr-auto bg-slate-700 mt-5 rounded-md"
+                  />
+                </div>
+                <div
+                  class="card-img w-[40%]"
+                >
+                  <div
+                    class="h-[100px] w-[80%] mx-auto bg-slate-700 rounded-md"
+                  />
+                </div>
+              </div>
+            </li>
+            <li
+              class="list-items pl-3 flex"
+            >
+              <div
+                class="card flex justify-evenly items-center w-full"
+              >
+                <div
+                  class="card-body w-[60%] animate-pulse"
+                >
+                  <div
+                    class="h-6 w-[40%] mr-auto bg-slate-700 mt-3 rounded-md"
+                  />
+                  <div
+                    class="h-4 w-[60%] mr-auto bg-slate-700 mt-3 rounded-md"
+                  />
+                  <div
+                    class="h-6 w-[40%] mr-auto bg-slate-700 mt-5 rounded-md"
+                  />
+                </div>
+                <div
+                  class="card-img w-[40%]"
+                >
+                  <div
+                    class="h-[100px] w-[80%] mx-auto bg-slate-700 rounded-md"
+                  />
+                </div>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </section>
+    </section>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`UI Tests should render Landing Page 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <section
+        class="landing flex flex-col h-screen justify-center items-center"
+      >
+        <h1
+          class="text-4xl font-bold"
+        >
+          COVID-19
+        </h1>
+        <p
+          class="text-4xl font-semibold"
+        >
+          Tracker App
+        </p>
+        <button
+          aria-label="View Data"
+          class="p-button p-component landing-btn border px-5 py-3 mt-6 uppercase rounded-full text-2xl"
+        >
+          <span
+            class="p-button-label p-c"
+          >
+            View Data
+          </span>
+        </button>
+      </section>
+    </div>
+  </body>,
+  "container": <div>
+    <section
+      class="landing flex flex-col h-screen justify-center items-center"
+    >
+      <h1
+        class="text-4xl font-bold"
+      >
+        COVID-19
+      </h1>
+      <p
+        class="text-4xl font-semibold"
+      >
+        Tracker App
+      </p>
+      <button
+        aria-label="View Data"
+        class="p-button p-component landing-btn border px-5 py-3 mt-6 uppercase rounded-full text-2xl"
+      >
+        <span
+          class="p-button-label p-c"
+        >
+          View Data
+        </span>
+      </button>
+    </section>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
+
+exports[`UI Tests should render World UI 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <section
+        class="flex flex-wrap justify-center gap-4 p-2"
+      >
+        <div
+          class="total-cases flex flex-col justify-center h-[6rem] text-center rounded p-5 w-[10rem]"
+        >
+          <span
+            class="font-bold text-xl text-green-300"
+          />
+          <span>
+            Total Cases
+          </span>
+        </div>
+        <div
+          class="total-cases flex flex-col justify-center h-[6rem] text-center rounded p-5 w-[10rem]"
+        >
+          <span
+            class="font-bold text-xl text-yellow-100"
+          />
+          <span>
+            Active Cases
+          </span>
+        </div>
+        <div
+          class="total-cases flex flex-col justify-center h-[6rem] rounded p-5 text-center w-[10rem]"
+        >
+          <span
+            class="font-bold text-xl text-red-800"
+          />
+          <span>
+            Total Deaths
+          </span>
+        </div>
+        <div
+          class="total-cases flex flex-col justify-center h-[6rem] rounded p-5 text-center w-[10rem]"
+        >
+          <span
+            class="font-bold text-xl text-green-300"
+          />
+          <span>
+            New Cases
+          </span>
+        </div>
+        <div
+          class="total-cases flex flex-col justify-center h-[6rem] rounded p-5 text-center w-[10rem]"
+        >
+          <span
+            class="font-bold text-xl text-yellow-500"
+          />
+          <span>
+            Critical
+          </span>
+        </div>
+        <div
+          class="total-cases flex flex-col justify-center h-[6rem] rounded p-5 text-center w-[10rem]"
+        >
+          <span
+            class="font-bold text-xl text-red-800"
+          />
+          <span>
+            New Deaths
+          </span>
+        </div>
+      </section>
+    </div>
+  </body>,
+  "container": <div>
+    <section
+      class="flex flex-wrap justify-center gap-4 p-2"
+    >
+      <div
+        class="total-cases flex flex-col justify-center h-[6rem] text-center rounded p-5 w-[10rem]"
+      >
+        <span
+          class="font-bold text-xl text-green-300"
+        />
+        <span>
+          Total Cases
+        </span>
+      </div>
+      <div
+        class="total-cases flex flex-col justify-center h-[6rem] text-center rounded p-5 w-[10rem]"
+      >
+        <span
+          class="font-bold text-xl text-yellow-100"
+        />
+        <span>
+          Active Cases
+        </span>
+      </div>
+      <div
+        class="total-cases flex flex-col justify-center h-[6rem] rounded p-5 text-center w-[10rem]"
+      >
+        <span
+          class="font-bold text-xl text-red-800"
+        />
+        <span>
+          Total Deaths
+        </span>
+      </div>
+      <div
+        class="total-cases flex flex-col justify-center h-[6rem] rounded p-5 text-center w-[10rem]"
+      >
+        <span
+          class="font-bold text-xl text-green-300"
+        />
+        <span>
+          New Cases
+        </span>
+      </div>
+      <div
+        class="total-cases flex flex-col justify-center h-[6rem] rounded p-5 text-center w-[10rem]"
+      >
+        <span
+          class="font-bold text-xl text-yellow-500"
+        />
+        <span>
+          Critical
+        </span>
+      </div>
+      <div
+        class="total-cases flex flex-col justify-center h-[6rem] rounded p-5 text-center w-[10rem]"
+      >
+        <span
+          class="font-bold text-xl text-red-800"
+        />
+        <span>
+          New Deaths
+        </span>
+      </div>
+    </section>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

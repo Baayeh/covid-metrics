@@ -1,7 +1,16 @@
+import { Outlet, useLocation } from 'react-router-dom';
+import { NavBar } from './components';
+
 function App() {
+  const location = useLocation();
   return (
     <div className="App">
-      App
+      {
+        location.pathname !== '/' ? (<NavBar />) : null
+      }
+      <main>
+        <Outlet />
+      </main>
     </div>
   );
 }
