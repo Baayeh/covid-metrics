@@ -1,3 +1,4 @@
+/* eslint-disable react/require-default-props */
 /* eslint-disable no-param-reassign */
 import React from 'react';
 import PropTypes from 'prop-types';
@@ -10,7 +11,7 @@ import north from '../../assets/north-america.png';
 import south from '../../assets/south-america.png';
 
 const Categories = ({ continentData }) => {
-  const alldata = continentData;
+  const alldata = continentData || [];
   const african = alldata.filter((data) => data.Continent === 'Africa');
   const asian = alldata.filter((data) => data.Continent === 'Asia');
   const australian = alldata.filter(
@@ -189,7 +190,7 @@ const Categories = ({ continentData }) => {
 };
 
 Categories.propTypes = {
-  continentData: PropTypes.shape([]).isRequired,
+  continentData: PropTypes.shape([]),
 };
 
 export default Categories;
