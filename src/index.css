@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-@import "primereact/resources/themes/lara-light-indigo/theme.css";
-@import "primereact/resources/primereact.min.css";
-@import "primeicons/primeicons.css";
+@import 'primereact/resources/themes/lara-light-indigo/theme.css';
+@import 'primereact/resources/primereact.min.css';
+@import 'primeicons/primeicons.css';
 
 @tailwind base;
 @tailwind components;
@@ -19,12 +19,29 @@
 
 @layer components {
   /* NavBar */
+  header.nav-header {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+
+  header.nav-header::-webkit-scrollbar {
+    display: none;
+  }
+
   ul.menu-list {
-    @apply bg-primary h-screen flex flex-col pt-16 absolute z-10 overflow-hidden transition-all ease-out duration-500 items-center;
+    @apply bg-primary h-screen flex flex-col md:gap-4 pt-16 md:pt-2 absolute z-10 overflow-hidden transition-all ease-out duration-500 items-center;
   }
 
   a.nav-link {
-    @apply block p-5;
+    @apply block p-5 md:p-2 md:border rounded-md md:w-[10rem] md:h-[4.5rem] md:flex justify-center items-center md:text-center hover:bg-[#243b55] transition-all ease-out duration-300;
+  }
+
+  a.active {
+    @apply bg-[#243b55];
+  }
+
+  div.total-cases {
+    @apply md:h-[6rem] md:w-[10rem] xl:w-[18rem] xl:h-[8rem];
   }
 
   .total-cases,
@@ -44,7 +61,7 @@
 
   /* Categories */
   li.list-items {
-    @apply h-[12rem];
+    @apply h-[12rem] md:pl-10;
 
     background: linear-gradient(270deg, #141e30, #243b55);
   }
@@ -60,5 +77,31 @@
   /* Details */
   header.details-header {
     background: linear-gradient(270deg, #141e30, #243b55);
+  }
+
+  .data-table .p-datatable-header {
+    color: white;
+    background: transparent;
+    border: none;
+  }
+
+  .data-table th {
+    background-color: #243b55 !important;
+    color: white !important;
+    border: 1px solid rgba(252, 252, 252, 0.269) !important;
+  }
+
+  .data-table .p-sortable-column-icon {
+    color: white !important;
+  }
+
+  .data-table tr {
+    background-color: transparent !important;
+    color: white !important;
+    border: 1px solid rgba(252, 252, 252, 0.269) !important;
+  }
+
+  .data-table td {
+    border: 1px solid rgba(252, 252, 252, 0.269) !important;
   }
 }
