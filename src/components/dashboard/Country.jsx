@@ -32,7 +32,7 @@ const Country = ({ countryData }) => {
   ));
 
   return (
-    <div>
+    <div className="mb-5">
       <div className=" px-2">
         {specific && (
           <DataTable value={specific} responsiveLayout="scroll" header="All Countries" showGridlines className="data-table">

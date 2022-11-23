@@ -104,4 +104,22 @@
   .data-table td {
     border: 1px solid rgba(252, 252, 252, 0.269) !important;
   }
+
+  .data-table td:nth-child(2),
+  .data-table td:nth-child(3) {
+    color: rgb(134 239 172);
+  }
+
+  .data-table td:nth-child(5) {
+    color: rgb(254 249 195);
+  }
+
+  .data-table td:nth-child(6),
+  .data-table td:nth-child(7) {
+    color: rgb(180, 34, 34);
+  }
+
+  .data-table td:nth-child(4) {
+    color: rgb(234 179 8);
+  }
 }
