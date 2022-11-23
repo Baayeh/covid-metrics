@@ -3,7 +3,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const World = ({ currentWorldData }) => (
-  <section className="flex flex-wrap justify-center gap-4 p-2">
+  <section className="flex flex-wrap justify-center xl:justify-evenly xl:gap-y-6 gap-4 p-2">
     <div className="total-cases flex flex-col justify-center h-[6rem] text-center rounded p-5 w-[10rem]">
       <span className="font-bold text-xl text-green-300">
         {currentWorldData?.TotalCases}

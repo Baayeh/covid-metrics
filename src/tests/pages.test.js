@@ -5,7 +5,7 @@ import { BrowserRouter } from 'react-router-dom';
 import store from '../redux/store';
 import LandingPage from '../pages/LandingPage';
 import Home from '../pages/Home';
-import { Categories, World } from '../components';
+import { World } from '../components';
 
 describe('UI Tests', () => {
   it('should render Landing Page', () => {
@@ -21,17 +21,6 @@ describe('UI Tests', () => {
     const tree = render(
       <Provider store={store}>
         <Home />
-      </Provider>,
-    );
-    expect(tree).toMatchSnapshot();
-  });
-
-  it('should render Categories UI', () => {
-    const tree = render(
-      <Provider store={store}>
-        <BrowserRouter>
-          <Categories />
-        </BrowserRouter>
       </Provider>,
     );
     expect(tree).toMatchSnapshot();
