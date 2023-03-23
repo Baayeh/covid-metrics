@@ -1,8 +1,8 @@
 /* eslint-disable react/require-default-props */
-import React from 'react';
-import PropTypes from 'prop-types';
-import { DataTable } from 'primereact/datatable';
 import { Column } from 'primereact/column';
+import { DataTable } from 'primereact/datatable';
+import PropTypes from 'prop-types';
+import React from 'react';
 
 const Country = ({ countryData }) => {
   const complete = countryData || [];
@@ -35,7 +35,13 @@ const Country = ({ countryData }) => {
     <div className="mb-5">
       <div className=" px-2">
         {specific && (
-          <DataTable value={specific} responsiveLayout="scroll" header="All Countries" showGridlines className="data-table">
+          <DataTable
+            value={specific}
+            responsiveLayout="scroll"
+            header="All Countries"
+            showGridlines
+            className="data-table"
+          >
             {dynamicCols}
           </DataTable>
         )}
@@ -45,7 +51,7 @@ const Country = ({ countryData }) => {
 };
 
 Country.propTypes = {
-  countryData: PropTypes.shape([]),
+  countryData: PropTypes.arrayOf(PropTypes.shape({}).isRequired),
 };
 
 export default Country;

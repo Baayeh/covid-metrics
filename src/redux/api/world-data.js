@@ -16,7 +16,7 @@ const fetchWorldData = async () => {
 };
 
 const fetchContinentData = async (continent) => {
-  const res = await axios.get(`${URL}/${continent}`, { headers });
+  const res = await axios.get(`${URL}${continent}`, { headers });
   return res.data;
 };
 

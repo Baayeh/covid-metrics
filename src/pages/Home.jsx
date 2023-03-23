@@ -13,7 +13,7 @@ const Home = () => {
     if (!worldData.length) {
       dispatch(getWorldData());
     }
-  }, []);
+  }, [dispatch, worldData.length]);
 
   return (
     <>
