@@ -52,12 +52,12 @@ const NavBar = () => {
           </NavLink>
         </li>
         <li className="item-list">
-          <NavLink to="/category/northamerica" className={`nav-link ${(isActive) => (isActive ? 'active' : '')}`} onClick={openMenu}>
+          <NavLink to="/category/north america" className={`nav-link ${(isActive) => (isActive ? 'active' : '')}`} onClick={openMenu}>
             North America
           </NavLink>
         </li>
         <li className="item-list">
-          <NavLink to="/category/southamerica" className={`nav-link ${(isActive) => (isActive ? 'active' : '')}`} onClick={openMenu}>
+          <NavLink to="/category/south america" className={`nav-link ${(isActive) => (isActive ? 'active' : '')}`} onClick={openMenu}>
             South America
           </NavLink>
         </li>

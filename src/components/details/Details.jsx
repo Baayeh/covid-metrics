@@ -27,7 +27,7 @@ const Details = () => {
       name = 'Australia/Oceania';
     } else if (continent === 'europe') {
       name = 'Europe';
-    } else if (continent === 'northamerica') {
+    } else if (continent === 'north america') {
       name = 'North America';
     } else {
       name = 'South America';
@@ -45,7 +45,7 @@ const Details = () => {
       img = australia;
     } else if (continent === 'europe') {
       img = europe;
-    } else if (continent === 'northamerica') {
+    } else if (continent === 'north america') {
       img = north;
     } else {
       img = south;
