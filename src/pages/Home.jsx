@@ -23,7 +23,7 @@ const Home = () => {
         </h2>
         {currentWorldData ? (
           <>
-            <World currentWorldData={currentWorldData} />
+            <World currentWorldData={worldData} />
             <Country countryData={worldData} />
           </>
         ) : (
