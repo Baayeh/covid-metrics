@@ -1,6 +1,6 @@
 /* eslint-disable react/require-default-props */
-import React from 'react';
 import PropTypes from 'prop-types';
+import React from 'react';
 
 const World = ({ currentWorldData }) => (
   <section className="flex flex-wrap justify-center xl:justify-evenly xl:gap-y-6 gap-4 p-2">
@@ -36,9 +36,9 @@ const World = ({ currentWorldData }) => (
     </div>
     <div className="total-cases flex flex-col justify-center h-[6rem] rounded p-5 text-center w-[10rem]">
       <span className="font-bold text-xl text-red-800">
-        {currentWorldData?.affectedCountries}
+        {currentWorldData?.recovered}
       </span>
-      <span>New Deaths</span>
+      <span>Recovered</span>
     </div>
   </section>
 );
@@ -50,7 +50,7 @@ World.propTypes = {
     deaths: PropTypes.number,
     todayCases: PropTypes.number,
     critical: PropTypes.number,
-    affectedCountries: PropTypes.number,
+    recovered: PropTypes.number,
   }),
 };
 

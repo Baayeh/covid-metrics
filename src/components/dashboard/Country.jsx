@@ -5,8 +5,7 @@ import PropTypes from 'prop-types';
 import React from 'react';
 
 const Country = ({ countryData }) => {
-  const complete = countryData || [];
-  const countries = complete.filter((country) => country.rank !== 0);
+  const countries = countryData || [];
   const columns = [
     { field: 'Country', header: 'Country' },
     { field: 'TotalCases', header: 'Total Cases' },
@@ -14,17 +13,17 @@ const Country = ({ countryData }) => {
     { field: 'Critical', header: 'Critical' },
     { field: 'ActiveCases', header: 'Active Cases' },
     { field: 'TotalDeaths', header: 'Total Deaths' },
-    { field: 'NewDeaths', header: 'New Deaths' },
+    { field: 'Recovered', header: 'Recovered' },
   ];
 
   const specific = countries.map((country) => ({
-    Country: country.Country,
-    TotalCases: country.TotalCases,
-    NewCases: country.NewCases,
-    Critical: country.Serious_Critical,
-    ActiveCases: country.ActiveCases,
-    TotalDeaths: country.TotalDeaths,
-    NewDeaths: country.NewDeaths,
+    Country: country.country,
+    TotalCases: country.cases,
+    NewCases: country.todayCases,
+    Critical: country.critical,
+    ActiveCases: country.active,
+    TotalDeaths: country.deaths,
+    Recovered: country.recovered,
   }));
 
   const dynamicCols = columns.map((col) => (

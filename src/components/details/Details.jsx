@@ -1,16 +1,16 @@
 /* eslint-disable no-param-reassign */
 import React, { useEffect } from 'react';
+import { IoArrowBackOutline } from 'react-icons/io5';
 import { useDispatch, useSelector } from 'react-redux';
 import { Link, useParams } from 'react-router-dom';
-import { IoArrowBackOutline } from 'react-icons/io5';
-import { getContinentData } from '../../redux/world-data/continentSlice';
-import MiniBoxLoader from '../loader/miniBoxLoader';
 import africa from '../../assets/africa.png';
 import asia from '../../assets/asia.png';
 import australia from '../../assets/australia.png';
 import europe from '../../assets/europe.png';
 import north from '../../assets/north-america.png';
 import south from '../../assets/south-america.png';
+import { getContinentData } from '../../redux/world-data/continentSlice';
+import MiniBoxLoader from '../loader/miniBoxLoader';
 
 const Details = () => {
   const { continent } = useParams();
@@ -53,36 +53,6 @@ const Details = () => {
     return img;
   };
 
-  const TotalCases = () => contData.reduce((acc, curr) => {
-    acc += curr.TotalCases;
-    return acc;
-  }, 0);
-
-  const ActiveCases = () => contData.reduce((acc, curr) => {
-    acc += curr.ActiveCases;
-    return acc;
-  }, 0);
-
-  const TotalDeaths = () => contData.reduce((acc, curr) => {
-    acc += curr.TotalDeaths;
-    return acc;
-  }, 0);
-
-  const NewCases = () => contData.reduce((acc, curr) => {
-    acc += curr.NewCases;
-    return acc;
-  }, 0);
-
-  const Critical = () => contData.reduce((acc, curr) => {
-    acc += curr.Serious_Critical;
-    return acc;
-  }, 0);
-
-  const NewDeaths = () => contData.reduce((acc, curr) => {
-    acc += curr.NewDeaths;
-    return acc;
-  }, 0);
-
   useEffect(() => {
     dispatch(getContinentData(continent));
   }, [contData]);
@@ -111,43 +81,43 @@ const Details = () => {
           <img src={changeImg()} alt="" className="opacity-25" />
         </div>
       </header>
-      {contData.length ? (
+      {contData ? (
         <section className="mt-3 flex flex-wrap justify-center gap-4 p-2">
           <div className="total-cases flex flex-col justify-center h-[6rem] text-center rounded p-5 w-[10rem]">
             <span className="font-bold text-xl text-green-300">
-              {TotalCases()}
+              {contData.cases}
             </span>
             <span>Total Cases</span>
           </div>
           <div className="total-cases flex flex-col justify-center h-[6rem] text-center rounded p-5 w-[10rem]">
             <span className="font-bold text-xl text-yellow-100">
-              {ActiveCases()}
+              {contData.active}
             </span>
             <span>Active Cases</span>
           </div>
           <div className="total-cases flex flex-col justify-center h-[6rem] rounded p-5 text-center w-[10rem]">
             <span className="font-bold text-xl text-red-800">
-              {TotalDeaths()}
+              {contData.deaths}
             </span>
             <span>Total Deaths</span>
           </div>
           <div className="total-cases flex flex-col justify-center h-[6rem] rounded p-5 text-center w-[10rem]">
             <span className="font-bold text-xl text-green-300">
-              {NewCases()}
+              {contData.todayCases}
             </span>
             <span>New Cases</span>
           </div>
           <div className="total-cases flex flex-col justify-center h-[6rem] rounded p-5 text-center w-[10rem]">
             <span className="font-bold text-xl text-yellow-500">
-              {Critical()}
+              {contData.critical}
             </span>
             <span>Critical</span>
           </div>
           <div className="total-cases flex flex-col justify-center h-[6rem] rounded p-5 text-center w-[10rem]">
             <span className="font-bold text-xl text-red-800">
-              {NewDeaths()}
+              {contData.recovered}
             </span>
-            <span>New Deaths</span>
+            <span>Recovered</span>
           </div>
         </section>
       ) : (
